@@ -1,0 +1,16 @@
+Do the following steps to get instances
+On AWS
+Prerequisite: You need to setup an account on Amazon webservices. If you do not have one get one first. 
+a. Create Key Pair
+b. Provision EC2 instance with CentOS 7
+c. Connecting to EC2 instance
+d. Understanding port forwarding
+e. Configure foxy proxy
+f. Setup Remote Desktop
+
+ON Google Cloud Platform
+Prerequisite: You need to sign up for Google cloud platform. If you did not get the GCP subscription here http://console.cloud.google.com.
+Steps need to be outlined
+
+ON Azure Platoform
+
