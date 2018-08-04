@@ -1,0 +1,14 @@
+The following steps are common for a single instance or more than one instance. We will use ansible playbook to deploy the cluster
+
+1. Create partitions, formatting hard disks and mount them to store data using HDFS (owner should be Hadoop) – 
+one time activity and hence we will run only once
+
+2. Install JDK and configure JAVA_HOME
+
+3. Download and Untar Hadoop binaries under /opt
+
+4. Copy default configuration files to /etc/hadoop/conf and set HADOOP_CONF_DIR to it
+
+5. Configure JAVA_HOME in hadoop-env.sh
+
+6. Update core-site.xml, hdfs-site.xml, yarn-site.xml and mapred-site.xml files with appropriate properties
